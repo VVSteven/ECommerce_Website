@@ -4,31 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>foiuehf</title>
-    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" />
   </head>
   <body>
     <nav class="navbar navbar-light bg-white">
-        <a class="navbar-brand" href="#">
-          <img src="images/castles-high-resolution-color-logo.png" width="200" alt="castles-logo">
-        </a>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="product.html">Product</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="service.html">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">cart</a>
-            </li>
-          </ul>
-      </nav>
+      <a class="navbar-brand" href="#">
+        <img
+          src="images/castles-high-resolution-color-logo.png"
+          width="200"
+          alt="castles-logo"
+        />
+      </a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active text-primary-emphasis fw-bold" href="product.html"
+            >PRODUCT</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-primary-emphasis fw-bold" href="service.html"
+            >SERVICE</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-primary-emphasis fw-bold" href="login.html">LOGIN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-primary-emphasis fw-bold" data-toggle="dropdown" href="registration.html" role="button" aria-haspopup="true" aria-expanded="false">REGISTER</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active text-primary-emphasis dropdown-toggle fw-bold" href="checkout.html">CART</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
     <script src="scripts/bootstrap.js"></script>
   </body>
 </html>
